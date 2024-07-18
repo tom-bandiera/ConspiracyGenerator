@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d430c6c8317d64babb138191433df8, type: 3}
+  m_Name: LoopingActions
+  m_EditorClassIdentifier: 
+  m_lines:
+  - m_text: "... and ...\t\t"
+    m_sane: {fileID: 8300000, guid: 24d007257c832bc47ac1deb9aff86ed1, type: 3}
+    m_crazy: {fileID: 8300000, guid: dc916963674dab140aed95944d014af8, type: 3}
+  - m_text: "... or else, maybe ...\t\t"
+    m_sane: {fileID: 8300000, guid: 1b43a922f1e5af24e87657585797969c, type: 3}
+    m_crazy: {fileID: 8300000, guid: 4ce79952541a9e54b96f1e21e3060226, type: 3}
+  - m_text: "... no, no wait. I mean ...\t\t"
+    m_sane: {fileID: 8300000, guid: 288e3f5ca7b1b4642b976746874eb0b3, type: 3}
+    m_crazy: {fileID: 8300000, guid: 81a99b42a95fdd44ba7f08d40ebe2ca6, type: 3}
+  - m_text: "... in conjunction with ...\t\t"
+    m_sane: {fileID: 8300000, guid: fcb01fdbac2792344b9a73aaecd58957, type: 3}
+    m_crazy: {fileID: 8300000, guid: b5a3090601447434985a8ff42795a363, type: 3}
+  - m_text: "... with the full blessing of ...\t\t"
+    m_sane: {fileID: 8300000, guid: cd87c6b40bfc931409b54d7cecd3726c, type: 3}
+    m_crazy: {fileID: 8300000, guid: f66a588d05f8ada4f9f9762f2d3a7763, type: 3}
+  - m_text: "... with the backing of ...\t\t"
+    m_sane: {fileID: 8300000, guid: 17f42b00354c891429eedd271e3c7aee, type: 3}
+    m_crazy: {fileID: 8300000, guid: 1f9d66159b8c1d542a68729c553d2ead, type: 3}
+  - m_text: "... who are merely the pawns of ...\t\t"
+    m_sane: {fileID: 8300000, guid: b6e020ede7cec864a93e04bcb9ffc0d0, type: 3}
+    m_crazy: {fileID: 8300000, guid: 660faa9b83b78f14ca6ee59b5344799b, type: 3}
+  - m_text: "... who are the puppet masters of ...\t\t"
+    m_sane: {fileID: 8300000, guid: f46471963348bde45995475c98828469, type: 3}
+    m_crazy: {fileID: 8300000, guid: 5566fdc3ff393134098a34c8f3e5ff99, type: 3}
