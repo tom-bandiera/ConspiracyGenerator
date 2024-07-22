@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d430c6c8317d64babb138191433df8, type: 3}
   m_Name: LoopingActions
   m_EditorClassIdentifier: 
+  m_state: 2
   m_lines:
   - m_text: "... and ...\t\t"
     m_sane: {fileID: 8300000, guid: 24d007257c832bc47ac1deb9aff86ed1, type: 3}
@@ -37,3 +38,7 @@ MonoBehaviour:
   - m_text: "... who are the puppet masters of ...\t\t"
     m_sane: {fileID: 8300000, guid: f46471963348bde45995475c98828469, type: 3}
     m_crazy: {fileID: 8300000, guid: 5566fdc3ff393134098a34c8f3e5ff99, type: 3}
+  m_transitions:
+  - m_name: Conspirators
+    m_dialogCollection: {fileID: 11400000, guid: 6f9d5765790fded4889afa8d7a117c55, type: 2}
+    m_probability: 1

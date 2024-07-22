@@ -9,6 +9,7 @@ namespace Dialogs.Runtime
     {
         #region Publics
 
+        public DialogStateEnum.STATE m_state;
         public List<Line> m_lines = new List<Line>();
         public List<Transition> m_transitions = new List<Transition>();
 
@@ -24,7 +25,7 @@ namespace Dialogs.Runtime
         public struct Transition
         {
             public string m_name;
-            public DialogCollectionScriptable m_state;
+            public DialogCollectionScriptable m_dialogCollection;
             [Range(0f, 1f)] public float m_probability;
         }
 

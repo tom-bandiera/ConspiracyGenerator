@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d430c6c8317d64babb138191433df8, type: 3}
   m_Name: Conspirators
   m_EditorClassIdentifier: 
+  m_state: 0
   m_lines:
   - m_text: ... the milkman ...
     m_sane: {fileID: 8300000, guid: 83bb0968e7e98f948a28f13e762edec1, type: 3}
@@ -28,7 +29,40 @@ MonoBehaviour:
   - m_text: "... the analytical, man ...\t\t"
     m_sane: {fileID: 8300000, guid: 6d4936bfee64cfa4c8232470657f8f7d, type: 3}
     m_crazy: {fileID: 8300000, guid: 96cb6572a4102a44d8817f4c24851d1c, type: 3}
+  - m_text: ... those bermuda triangle sharks ...
+    m_sane: {fileID: 8300000, guid: eafb14d7088d84049907859533c5cd98, type: 3}
+    m_crazy: {fileID: 8300000, guid: 19acab919f9388f46905a1899755f955, type: 3}
+  - m_text: "... all them haters ...\t\t"
+    m_sane: {fileID: 8300000, guid: 90d56d02c9935f24eae91f8700e7e8ba, type: 3}
+    m_crazy: {fileID: 8300000, guid: 4f3152ac0868ddd4f991d27f70df2565, type: 3}
+  - m_text: ... Hernando ...
+    m_sane: {fileID: 8300000, guid: 1f5bc2c56b3a7ac419aa18fbb5ea6ae2, type: 3}
+    m_crazy: {fileID: 8300000, guid: 4b06340c166b880428f7ea1667918d52, type: 3}
+  - m_text: ... that little fat kid with the bunny ...
+    m_sane: {fileID: 8300000, guid: 1f5260283c735514198268fc16b67bc7, type: 3}
+    m_crazy: {fileID: 8300000, guid: 7adc99e0e2acea843a556bb4e278d9cd, type: 3}
+  - m_text: ... the doctors back at the clinic ...
+    m_sane: {fileID: 8300000, guid: ececce525e29cfa4fb2f89f82ac54a3e, type: 3}
+    m_crazy: {fileID: 8300000, guid: bb9406679cd1a5648ae135b7cecfda8e, type: 3}
+  - m_text: ... the pelicans ...
+    m_sane: {fileID: 8300000, guid: ec3b0a4e14ae599439eb297fc1a9b79b, type: 3}
+    m_crazy: {fileID: 8300000, guid: 41bd3303940e68d48a24c3c53b05deda, type: 3}
+  - m_text: ... the squirrels ...
+    m_sane: {fileID: 8300000, guid: 2e6f7ba9f9b5be94392856d6929bff58, type: 3}
+    m_crazy: {fileID: 8300000, guid: 2adbfbcecdb81d74398b960e0dbf7bfa, type: 3}
+  - m_text: ... the manager of that boy band ...
+    m_sane: {fileID: 8300000, guid: 48fd564156ab8c340a706f3176e707a1, type: 3}
+    m_crazy: {fileID: 8300000, guid: 388afec256aad124fa8c43e3211e2906, type: 3}
+  - m_text: ... those eggheads in their ivory tower ...
+    m_sane: {fileID: 8300000, guid: 07630bca7866eb844b4f20c99c6185b5, type: 3}
+    m_crazy: {fileID: 8300000, guid: b7ff71fb4cd961e4982ebbee7f906cea, type: 3}
   m_transitions:
   - m_name: LoopingActions
-    m_state: {fileID: 11400000, guid: cbc71856a90920043a04e7b056a64e80, type: 2}
+    m_dialogCollection: {fileID: 11400000, guid: cbc71856a90920043a04e7b056a64e80, type: 2}
+    m_probability: 0.5
+  - m_name: SemiTerminalActions
+    m_dialogCollection: {fileID: 11400000, guid: 679eafbbdc574a44e8f0267769df844b, type: 2}
+    m_probability: 0.5
+  - m_name: TerminalActions
+    m_dialogCollection: {fileID: 11400000, guid: f0e5bc29562568f4594520b615d9f0db, type: 2}
     m_probability: 0.5
