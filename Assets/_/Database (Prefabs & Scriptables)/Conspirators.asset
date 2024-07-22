@@ -56,13 +56,52 @@ MonoBehaviour:
   - m_text: ... those eggheads in their ivory tower ...
     m_sane: {fileID: 8300000, guid: 07630bca7866eb844b4f20c99c6185b5, type: 3}
     m_crazy: {fileID: 8300000, guid: b7ff71fb4cd961e4982ebbee7f906cea, type: 3}
+  - m_text: ... that guy with the eyepatch ...
+    m_sane: {fileID: 8300000, guid: c4adb422b6342b742bef4bbdeed79c0c, type: 3}
+    m_crazy: {fileID: 8300000, guid: 0ee850a4d8586e745a2702a9002450ae, type: 3}
+  - m_text: ... the psychowhatsits ...
+    m_sane: {fileID: 8300000, guid: 2a2d1eaa016dc864697dc1e595b40487, type: 3}
+    m_crazy: {fileID: 8300000, guid: af71931b948fb2743a07ecde804c3d31, type: 3}
+  - m_text: ... the freaky hunchback girl who loves brains so much ...
+    m_sane: {fileID: 8300000, guid: 2f83c5679aa704349847f19aff54620f, type: 3}
+    m_crazy: {fileID: 8300000, guid: e39ebb94822bce1419bc6ff66e8f2c7a, type: 3}
+  - m_text: ... the dairy industry ...
+    m_sane: {fileID: 8300000, guid: f4c96ba543d2475459e1b0f9c9662829, type: 3}
+    m_crazy: {fileID: 8300000, guid: 132301404c536974294852b16204c139, type: 3}
+  - m_text: ... the kid with the googles ...
+    m_sane: {fileID: 8300000, guid: fd0e964b0a8dd6f41bd4efc673a0e719, type: 3}
+    m_crazy: {fileID: 8300000, guid: 19ca3874c9d160d478a06637e847d0fb, type: 3}
+  - m_text: ... the dog track regulators ...
+    m_sane: {fileID: 8300000, guid: 429eb113292d0e64f80bad7f06c04191, type: 3}
+    m_crazy: {fileID: 8300000, guid: 2e5fe2652de34f54ab19c6c4d7ac3a78, type: 3}
+  - m_text: "... the thuna canneries ...\t\t"
+    m_sane: {fileID: 8300000, guid: cf9414b8f93c7094e96fd92dcff49148, type: 3}
+    m_crazy: {fileID: 8300000, guid: edb08e0c806b36f43bf6035b51808607, type: 3}
+  - m_text: "... the national park system ...\t\t"
+    m_sane: {fileID: 8300000, guid: 3c45a8f42b1a84d4b80fb766b3b53a25, type: 3}
+    m_crazy: {fileID: 8300000, guid: e27014b43276c9944ada278dda7a2fcb, type: 3}
+  - m_text: ... big oil ...
+    m_sane: {fileID: 8300000, guid: 9ac64c6d5f0ed0d4d9ede690013b393c, type: 3}
+    m_crazy: {fileID: 8300000, guid: 7458e441d49973144a9593ffa9369168, type: 3}
+  - m_text: ... organized labor ...
+    m_sane: {fileID: 8300000, guid: b29d079c333d8f641be1f78388e757d5, type: 3}
+    m_crazy: {fileID: 8300000, guid: 8f07332fa025b6943b4af7093c07bc72, type: 3}
+  - m_text: ... the rodeo clown cartel ...
+    m_sane: {fileID: 8300000, guid: c6825e3055a2e8e49b40bda19220a64e, type: 3}
+    m_crazy: {fileID: 8300000, guid: 4cd26709eb323484285f8e0355d2257e, type: 3}
+  - m_text: ... the medias ...
+    m_sane: {fileID: 8300000, guid: 4b337268709aa2e44bc6d21a0353a65f, type: 3}
+    m_crazy: {fileID: 8300000, guid: 989b3f39e1a4ce247964f3d69a32fd0b, type: 3}
+  - m_text: ... the cows ...
+    m_sane: {fileID: 8300000, guid: 0987da4f797487f46a16f8fe66f3e96b, type: 3}
+    m_crazy: {fileID: 8300000, guid: 49d0e51702c8b904f91b70521e516e11, type: 3}
   m_transitions:
   - m_name: LoopingActions
     m_dialogCollection: {fileID: 11400000, guid: cbc71856a90920043a04e7b056a64e80, type: 2}
-    m_probability: 0.5
+    m_probability: 0.25
   - m_name: SemiTerminalActions
     m_dialogCollection: {fileID: 11400000, guid: 679eafbbdc574a44e8f0267769df844b, type: 2}
-    m_probability: 0.5
+    m_probability: 0.25
   - m_name: TerminalActions
     m_dialogCollection: {fileID: 11400000, guid: f0e5bc29562568f4594520b615d9f0db, type: 2}
     m_probability: 0.5
