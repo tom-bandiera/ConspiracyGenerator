@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d430c6c8317d64babb138191433df8, type: 3}
+  m_Name: LinkableLines
+  m_EditorClassIdentifier: 
+  m_state: 1
+  m_lines:
+  - m_text: ... and they obviously...
+    m_sane: {fileID: 8300000, guid: 41464fb7fee56854498b539201301dfd, type: 3}
+    m_crazy: {fileID: 8300000, guid: 3924cf9b03cda85418f6df2f808e6e0a, type: 3}
+  - m_text: ... and i know they ...
+    m_sane: {fileID: 8300000, guid: 805f319a33018d842973146421d64197, type: 3}
+    m_crazy: {fileID: 8300000, guid: effc44b41de09fe459529445c22ea42c, type: 3}
+  - m_text: ... but they can't hide that they ...
+    m_sane: {fileID: 8300000, guid: 805f319a33018d842973146421d64197, type: 3}
+    m_crazy: {fileID: 8300000, guid: 704cb90300b1d09409d4326ad1718150, type: 3}
+  - m_text: ...and, let's just say for now that they ...
+    m_sane: {fileID: 8300000, guid: 8647ab7b92d3588408f7fe54d13da2b6, type: 3}
+    m_crazy: {fileID: 8300000, guid: 08c4a5c8a86923a40908cef841668d7f, type: 3}
+  - m_text: ... and, if i know anything, i know that they ...
+    m_sane: {fileID: 8300000, guid: 742cc21a50493624baf16775345205a2, type: 3}
+    m_crazy: {fileID: 8300000, guid: 52ffff2a3c1493c488b1217d9fc9f37f, type: 3}
+  - m_text: ... and sure as the nose on my face, i am sure they ...
+    m_sane: {fileID: 8300000, guid: e5adf856563b8a147ac7e320fa82b053, type: 3}
+    m_crazy: {fileID: 8300000, guid: b33a7c8a9bead084faf2583f4a915540, type: 3}
+  m_transitions:
+  - m_name: SemiTerminalActions
+    m_dialogCollection: {fileID: 11400000, guid: 679eafbbdc574a44e8f0267769df844b, type: 2}
+    m_probability: 0
+  - m_name: TerminalActions
+    m_dialogCollection: {fileID: 11400000, guid: f0e5bc29562568f4594520b615d9f0db, type: 2}
+    m_probability: 0.5

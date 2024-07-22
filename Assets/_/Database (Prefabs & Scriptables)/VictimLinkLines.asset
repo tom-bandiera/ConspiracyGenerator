@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d430c6c8317d64babb138191433df8, type: 3}
+  m_Name: VictimLinkLines
+  m_EditorClassIdentifier: 
+  m_state: 6
+  m_lines:
+  - m_text: ... to get ...
+    m_sane: {fileID: 8300000, guid: 254885be235063344bc8a311abb2ea41, type: 3}
+    m_crazy: {fileID: 8300000, guid: 7d989178d11816f4983ba27db65dff4a, type: 3}
+  - m_text: ... because they want ...
+    m_sane: {fileID: 8300000, guid: 257c3c362ece5034d8a626cd6adb35bd, type: 3}
+    m_crazy: {fileID: 8300000, guid: 7338e842d424af7478f46c3cca1836c7, type: 3}
+  - m_text: ... in order to monopolize ...
+    m_sane: {fileID: 8300000, guid: 699890de690a5e04f86b5c1388b7d145, type: 3}
+    m_crazy: {fileID: 8300000, guid: 025268b9c7137df45840cb181e484fdb, type: 3}
+  - m_text: ... to keep down ...
+    m_sane: {fileID: 8300000, guid: 2396c8124d7f57e4285dfe97d56199e6, type: 3}
+    m_crazy: {fileID: 8300000, guid: d0aeee20de54b1e4fa9a61a827148d45, type: 3}
+  - m_text: ... so the people never find out about ...
+    m_sane: {fileID: 8300000, guid: 21605feb827ffae40b83fffd2d5da043, type: 3}
+    m_crazy: {fileID: 8300000, guid: a3f6baccb5e4c4546890e8326691890f, type: 3}
+  - m_text: ... and who wins? Them. Who loses?
+    m_sane: {fileID: 8300000, guid: bc56c4b5266c10744adad60762c0c5ea, type: 3}
+    m_crazy: {fileID: 8300000, guid: 235f2a1b0864c784c99b632406d4c200, type: 3}
+  - m_text: ... all in a big fight over...
+    m_sane: {fileID: 8300000, guid: 88356d4f8fca0b24d886d5904526fc4e, type: 3}
+    m_crazy: {fileID: 8300000, guid: 5b38c1a6336a8c548936963bc9d1cd91, type: 3}
+  m_transitions:
+  - m_name: Victims
+    m_dialogCollection: {fileID: 11400000, guid: 01f5002b06420264ab519a7a39bb331a, type: 2}
+    m_probability: 1

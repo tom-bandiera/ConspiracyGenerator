@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d430c6c8317d64babb138191433df8, type: 3}
+  m_Name: SemiTerminalActions
+  m_EditorClassIdentifier: 
+  m_state: 4
+  m_lines:
+  - m_text: "... went to the prom with ...\t\t"
+    m_sane: {fileID: 8300000, guid: e0d32a82199b45842a63044e1d56e4b9, type: 3}
+    m_crazy: {fileID: 8300000, guid: 9d9dc8862010e9e49a8fdadc68a666ea, type: 3}
+  - m_text: "... ate a whole jar of olives with ...\t\t"
+    m_sane: {fileID: 8300000, guid: 833158ddff6e5f543bfc1d65dad2dc56, type: 3}
+    m_crazy: {fileID: 8300000, guid: 969a1e68bb94de2498d676d769941966, type: 3}
+  - m_text: ... are working for ...
+    m_sane: {fileID: 8300000, guid: fd9f63c0ac181404091951d39811e435, type: 3}
+    m_crazy: {fileID: 8300000, guid: b7f478584b6300046b202fc8c9e8f45d, type: 3}
+  - m_text: ... are telling my location to ...
+    m_sane: {fileID: 8300000, guid: 5e51690a10edc7b4c8bfc7c2f77e81de, type: 3}
+    m_crazy: {fileID: 8300000, guid: eba49d71c86803b49b1f6e169cadd046, type: 3}
+  - m_text: ... made a deal back in '68 with ...
+    m_sane: {fileID: 8300000, guid: 4cd22452928c1e4488d57e2da5907349, type: 3}
+    m_crazy: {fileID: 8300000, guid: 6b603315b752e7b44abb9a1683130b5c, type: 3}
+  - m_text: ... sold their soul to ...
+    m_sane: {fileID: 8300000, guid: 3d865cd91a6ae9840bbcad1c939f7fff, type: 3}
+    m_crazy: {fileID: 8300000, guid: 3d865cd91a6ae9840bbcad1c939f7fff, type: 3}
+  - m_text: ... are controlled by ...
+    m_sane: {fileID: 8300000, guid: 7b814079fc5c61845bed8761c3e337bc, type: 3}
+    m_crazy: {fileID: 8300000, guid: 4692866a553a91641907022b2e7c1d25, type: 3}
+  - m_text: ... bought votes to protect ...
+    m_sane: {fileID: 8300000, guid: 7631e1109466dde47ad8156fc40905bd, type: 3}
+    m_crazy: {fileID: 8300000, guid: 8082a4232d7f1604d8fa98ad002ec789, type: 3}
+  - m_text: ... are doing the dirty work of ...
+    m_sane: {fileID: 8300000, guid: 07d31a893aad9a649a5c15b5a6df3e01, type: 3}
+    m_crazy: {fileID: 8300000, guid: 4283f0a1742b0da4d857dbde7dbfa288, type: 3}
+  - m_text: ... got in bed with ...
+    m_sane: {fileID: 8300000, guid: 9cc5b0ae53cbcbe40a870f53ac5c397f, type: 3}
+    m_crazy: {fileID: 8300000, guid: a02b53a7c1a77b2488a9864fe476742f, type: 3}
+  - m_text: ... signed a secret treaty with ...
+    m_sane: {fileID: 8300000, guid: e8036c39e0dcca84db8d272760f2944e, type: 3}
+    m_crazy: {fileID: 8300000, guid: 093ef768031832646ace3f4051b233bd, type: 3}
+  - m_text: ... has been officialy linked with ...
+    m_sane: {fileID: 8300000, guid: 95a56d37e8fe09742b85fdeb5fda0fef, type: 3}
+    m_crazy: {fileID: 8300000, guid: 6e90d306e73332441ad735617e87575a, type: 3}
+  m_transitions:
+  - m_name: AnotherConspirator
+    m_dialogCollection: {fileID: 11400000, guid: ad8ea68421dd9504e81c9ce858a11dae, type: 2}
+    m_probability: 1

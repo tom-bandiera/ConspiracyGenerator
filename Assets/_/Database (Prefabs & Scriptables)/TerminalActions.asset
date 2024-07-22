@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d430c6c8317d64babb138191433df8, type: 3}
+  m_Name: TerminalActions
+  m_EditorClassIdentifier: 
+  m_state: 5
+  m_lines:
+  - m_text: ... know the truth.
+    m_sane: {fileID: 8300000, guid: ce839efe7c39fab40a6f53ec26c96e62, type: 3}
+    m_crazy: {fileID: 8300000, guid: 876b3fe05930bb1429f6c9fb31ba2212, type: 3}
+  - m_text: ... wont stop visiting me.
+    m_sane: {fileID: 8300000, guid: 010883257d7033f4994e37d4e7ba4c73, type: 3}
+    m_crazy: {fileID: 8300000, guid: d40e32e8d25033c43b74a1755e53a694, type: 3}
+  - m_text: ... keep sparring with me.
+    m_sane: {fileID: 8300000, guid: ff7b30d32e00c0b48835edfb22f32b67, type: 3}
+    m_crazy: {fileID: 8300000, guid: 8b8b5555202e0c74d953bbcd1c68399d, type: 3}
+  - m_text: ... have been spitting on me all day.
+    m_sane: {fileID: 8300000, guid: 4b8eff5a2f85db14fa4f81d5a973737c, type: 3}
+    m_crazy: {fileID: 8300000, guid: 6381efd2a042ed446b268d95d6091423, type: 3}
+  - m_text: ... do this horrible thing. but in conjunction with wo? or whom?
+    m_sane: {fileID: 8300000, guid: c25ae3e2f5144bd4697cc14b43c46d19, type: 3}
+    m_crazy: {fileID: 8300000, guid: 611a438440ba99046bfacd2ec199d6be, type: 3}
+  - m_text: ... are crawling all over my skin.
+    m_sane: {fileID: 8300000, guid: 1ff3c07fa2bb7b6469b8f7acc642c0b2, type: 3}
+    m_crazy: {fileID: 8300000, guid: 46757b7718314f04590467793cf14e00, type: 3}
+  - m_text: ... bit me all night so i can't sleep.
+    m_sane: {fileID: 8300000, guid: eadee090fc6ba7748a9a5ef8b2900d4a, type: 3}
+    m_crazy: {fileID: 8300000, guid: 87214f0e877075240b42b89fdab8f5cf, type: 3}
+  - m_text: ... have everyone fooled.
+    m_sane: {fileID: 8300000, guid: f7487c6d14cf48143a03a9d5454ebbe3, type: 3}
+    m_crazy: {fileID: 8300000, guid: 0a56eaf7127d79146825bed90aaeb97b, type: 3}
+  - m_text: ... were digging away at the plastics.
+    m_sane: {fileID: 8300000, guid: 76db68acca445764bb6cd8ab52f88283, type: 3}
+    m_crazy: {fileID: 8300000, guid: 63773c7908fa8464cb050c812c44945e, type: 3}
+  - m_text: ... were dialing in through the optics.
+    m_sane: {fileID: 8300000, guid: 9d3e298b3372c0b4aaa4f39aebf67c92, type: 3}
+    m_crazy: {fileID: 8300000, guid: fc39fddc1d8b1db4dafe9ff89e99ba79, type: 3}
+  - m_text: ... stole my theories and reprinted them incorrectly, to discredit them.
+    m_sane: {fileID: 8300000, guid: 1b0732883240f1740aa0ad6318858c5e, type: 3}
+    m_crazy: {fileID: 8300000, guid: d08579a43567c0e44b19ac9a17ca7bfb, type: 3}
+  - m_text: ... are not to be trusted.
+    m_sane: {fileID: 8300000, guid: eec1267dcecf116419998bd03ae0fb59, type: 3}
+    m_crazy: {fileID: 8300000, guid: 4eea799604099484288c52c6a729119d, type: 3}
+  - m_text: ... have been living off the the dairy industry.
+    m_sane: {fileID: 8300000, guid: df21274ef10b9474da5262091ac8af82, type: 3}
+    m_crazy: {fileID: 8300000, guid: 69eafd511cf9b974c9bb2794233b866f, type: 3}
+  - m_text: ... have been fixing oil prices.
+    m_sane: {fileID: 8300000, guid: 549830fc5625a51479e9d2a832c15c33, type: 3}
+    m_crazy: {fileID: 8300000, guid: f4db84ea40f1bda46b9571a7a27cd843, type: 3}
+  - m_text: ... assassinated the one man in their way.
+    m_sane: {fileID: 8300000, guid: 2b6102d234de0224a8bf5982c6bfa4aa, type: 3}
+    m_crazy: {fileID: 8300000, guid: 3b17be23fc747274689d7877b2578087, type: 3}
+  - m_text: ... pretty much control everything.
+    m_sane: {fileID: 8300000, guid: c7a2d87e3730b744db2bee6965bf5c62, type: 3}
+    m_crazy: {fileID: 8300000, guid: 3c1943b371cff6044bc24a34c4b5fa9e, type: 3}
+  - m_text: ... pick who live and who dies and what the football score are going
+      to be this week.
+    m_sane: {fileID: 8300000, guid: e01fa035bd5d29040a819b46d7a402e4, type: 3}
+    m_crazy: {fileID: 8300000, guid: 5c34cfd041a30b6448b733702083de3a, type: 3}
+  m_transitions: []
